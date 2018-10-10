@@ -11,9 +11,6 @@ $(document).ready(function () {
       $(".active").removeClass("active");
       $(this).addClass("active");
 
-      // $(".activeMobile").removeClass("activeMobile");
-      // $('.menuMobile a[href^=hash]').addClass("activeMobile");
-      // if( $('.menuMobile a[href^=hash]').html() ) console.log('a[href^=hash]');
     }
     else {
       $(".activeMobile").removeClass("activeMobile");
@@ -44,8 +41,8 @@ $(function() {
 
   getSections();
 
-  console.log(sections);
-  // $(document).on("resize", getSections);
+  // console.log(sections);
+  // при ресайзе окна пересчитываем sections (начальные точки секций, по которым переключаются пункты меню при скроллинге)
   window.onresize = getSections;
 
   window.onscroll = function() {
