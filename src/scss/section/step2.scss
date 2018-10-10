@@ -1,0 +1,95 @@
+.step2 {
+  padding-top: 30px;
+  @media all and (max-width: 1200px) {
+    padding-top: 20px;
+  }
+}
+.head__step2 {
+  @media all and (max-width: 1200px) {
+    font-size: 310%;
+  }
+  @media all and (max-width: 764px) {
+    font-size: 250%;
+  }
+}
+.step2__lowHead {
+  color: red;
+  font-family: 'MyriadPro-Bold';
+  text-align: center;
+  font-size: 437.5%;
+  padding-top: 12px;
+  @media all and (max-width: 1200px) {
+    font-size: 276%;
+    line-height: 99%;
+  }
+}
+.step2__item {
+  float: left;
+  width: 33.33%;
+  height: 300px;
+  @media all and (max-width: 1200px) {
+    height: 200px;
+  }
+  @media all and (max-width: 764px) {
+    height: 120px;
+    width: 50%;
+  }
+}
+.step2__bullet_4 {
+  width: 320px;
+  height: 317px;
+  margin: 0 auto;
+  background: url(../images/bullets.jpg) no-repeat -960px 0;
+  @media all and (max-width: 1200px) {
+    width: 203.644px;
+    height: 203.644px;
+    background: url(../images/bullets-764.jpg) no-repeat -610.933px 0;
+  }
+}
+.step2__img {
+  display: block;
+  margin: 0 auto;
+  @media all and (max-width: 1200px) {
+    width: 80%;
+  }
+  @media all and (max-width: 764px) {
+    width: 65%;
+  }
+}
+.container__img_step2 {
+  position: relative;
+  width: 100%;
+}
+.step2__img__back {
+  //z-index: -100;
+}
+.step2__text_wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.step2__text {
+  width: 26.33%;
+  margin: 0 auto;
+  font-family: 'MyriadPro-Regular';
+  font-size: 112.5%;
+  line-height: 122%;
+  padding: 30px 40px 0;
+  @media all and (max-width: 1200px) {
+    padding-top: 10px;
+    font-size: 87.5%;
+    line-height: 113%;
+  }
+  @media all and (max-width: 764px) {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    width: 100%;
+  }
+}
+
+.step__bullet_4 {
+  @media all and (max-width: 764px) {
+    background: url(../images/bullets-480.jpg) no-repeat -383.807px 0;
+  }
+}

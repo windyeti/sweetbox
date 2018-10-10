@@ -1,0 +1,195 @@
+.wrap__menu {
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+.container__menu {
+  position: relative;
+  max-width: 1200px;
+  min-width: 380px;
+  margin: 0 auto;
+}
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0 19%;
+  //padding: 0 0 0 266px;
+  background: $lenta;
+  height: 80px;
+  @media all and (max-width: 1166px) {
+    //padding-left: 260px;
+    height: 70px;
+  }
+  @media all and (max-width: 992px) {
+    //padding-left: 170px;
+    height: 60px;
+  }
+  @media all and (max-width: 764px) {
+    display: none;
+  }
+}
+.menu_hide {
+  display: none;
+}
+.menu__item {
+  float: left;
+}
+.menu__item_lenta {
+  width: 21%;
+  padding: 0 0 0 3.8%;
+  @media all and (max-width: 1030px) {
+    padding-left: 0%;
+  }
+}
+
+// --------------
+.link_sweetboxLogo {
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 21.19%;
+  @media all and (max-width: 764px) {
+    width: 30%;
+  }
+}
+.sweetboxLogo__img {
+  width: 100%;
+}
+// ---------------
+.menu__link {
+  display: block;
+  padding: 6px 14px 0;
+  font-family: 'BullyGirl-Bold';
+  font-size: 187.5%;
+  line-height: 80px;
+  text-decoration: none;
+  color: #FFF;
+  text-align: center;
+  cursor: pointer;
+  transition: all .5s;
+  &.active {
+    color: $sw;
+  }
+  &:hover {
+    color: #ffd200;
+  }
+  @media all and (max-width: 1166px) {
+    padding: 5px 14px;
+    font-size: 160%;
+    line-height: 70px;
+  }
+  @media all and (max-width: 992px) {
+    padding: 9px 20px;
+    font-size: 118.75%;
+    line-height: 51px;
+  }
+  @media all and (max-width: 928px) {
+    padding: 9px 15px;
+  }
+  @media all and (max-width: 832px) {
+    padding: 9px 12px;
+  }
+}
+.menu__link_lentaLogo,
+.lentaLogo__img
+{
+  display: block;
+  margin: 5px auto 0;
+  width: 100%;
+}
+.menu__link_lentaLogo {
+  @media all and (max-width: 992px) {
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 0;
+  }
+  @media all and (max-width: 880px) {
+    padding-top: 8px;
+  }
+  @media all and (max-width: 836px) {
+    padding-top: 10px;
+  }
+  @media all and (max-width: 800px) {
+    padding-left: 0;
+  }
+}
+
+// --------- мобильная версия ------------
+
+.menuMobile {
+  display: none;
+  list-style: none;
+  font-family: 'BullyGirl-Bold';
+  margin: 0;
+  padding: 0;
+  background: $lenta;
+}
+.menuMobile_show {
+  display: block;
+}
+.menuMobile__link {
+  display: block;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-align: center;
+  font-size: 180%;
+  line-height: 300%;
+  border-bottom: 1px solid white;
+  transition: all .2s;
+  &.activeMobile {
+    color: $sw;
+  }
+  &:hover {
+    background: #ffd200;
+  }
+}
+.mobile_rectangle {
+  display: none;
+  position: relative;
+  height: 51px;
+  background: $lenta;
+  @media all and (max-width: 764px) {
+    display: block;
+  }
+}
+.burger {
+  cursor: pointer;
+  position: absolute;
+  top: 14px;
+  right: 19px;
+  width: 24px;
+  height: 24px;
+  background: url(../images/openClose.svg) no-repeat 0 0;
+  &:hover {
+    background-position-y: -24px;
+  }
+}
+.burger_close {
+  background: url(../images/openClose.svg) no-repeat -24px 0;
+  &:hover {
+    background-position-y: -24px;
+  }
+}
+.menuMobile__link_lentaLogo {
+  display: block;
+  width: 50%;
+  height: 100%;
+  margin: 0 auto;
+}
+.menuMobile__lentaLogo__img {
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+  height: 75%;
+  padding-top: 7px;
+}
+// ------------ ---------------
+
+.disable {
+  color: #3d4590;
+  cursor: default;
+  &:hover {
+    color: #3d4590;
+  }
+}

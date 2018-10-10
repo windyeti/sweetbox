@@ -1,0 +1,59 @@
+.body {
+  font-family: 'MyriadPro-Regular';
+  //font-family: 'mr', Arial, sans-serif;
+  font-size: 100%;
+}
+.clearfix:before,
+.clearfix:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+.clearfix:after {
+  clear: both;
+}
+
+.wrap {
+  max-width: 1200px;
+  min-width: 380px;
+  margin: 0 auto;
+}
+
+.imgback {
+  width: 100%;
+  display: block;
+}
+.head {
+  font-family: 'MyriadPro-Bold';
+  text-align: center;
+  font-size: 500%;
+  margin: 0;
+  color: $lenta;
+}
+
+//-----------
+
+.imgback-1200 {
+  @media all and (max-width: 764px) {
+    display: none;
+  }
+}
+.imgback-764 {
+  width: 100%;
+  display: none;
+  @media all and (max-width: 764px) {
+    display: block;
+  }
+}
+//------
+.target {
+  height: 80px;
+  @media all and (max-width: 1166px) {
+    height: 70px;
+  }
+  @media all and (max-width: 992px) {
+    height: 60px;
+  }
+  @media all and (max-width: 764px) {
+    display: 51px;
+  }
+}

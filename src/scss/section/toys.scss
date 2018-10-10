@@ -1,0 +1,28 @@
+.container_toys {
+  position: relative;
+}
+.toys {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+}
+.head__toys {
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding-top: 100px;
+  line-height: 110%;
+  margin: 0 auto;
+  @media all and (max-width: 1200px) {
+    font-size: 312.5%;
+  }
+  @media all and (max-width: 764px) {
+    font-size: 195%;
+    padding-top: 58px;
+  }
+}
+.head__toys p {
+  padding: 0;
+  margin: 0;
+}

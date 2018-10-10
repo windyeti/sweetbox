@@ -1,0 +1,22 @@
+include _common/variables.pug
+include _common/mixins.pug
+
+doctype html
+html
+	head(lang='en En')
+		meta(charset='utf-8')
+		link(rel="stylesheet", href="css/main.css")
+		meta(name="viewport" content="width=device-width, initial-scale=1")
+		link(rel="shortcut icon" href="/favicon.ico" type="image/x-icon")
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		script(src='https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js')
+		script(src='https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js')
+		<![endif]-->
+		script(src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous")
+
+		block title
+			title Страница шаблона
+
+	block body

@@ -1,0 +1,133 @@
+.footer {
+  background-color: $lenta;
+  color: #FFFFFF;
+}
+.container_footer {
+  width: 78.5%;
+  margin: 0 auto;
+  @media all and (max-width: 764px) {
+    width: 92.29%;
+  }
+}
+.head__footer {
+  padding-top: 65px;
+  line-height: 51%;
+  color: #FFFFFF;
+  @media all and (max-width: 1200px) {
+    padding-top: 41px;
+    font-size: 332%;
+  }
+}
+.lowHead_footer {
+  margin: 0;
+  padding-top: 16px;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 179%;
+  @media all and (max-width: 1200px) {
+    font-size: 127%;
+    padding-top: 7px;
+  }
+}
+.footer__socials {
+  width: 32.226%;
+  height: 68px;
+  margin: 0 auto;
+  padding-top: 37px;
+  @media all and (max-width: 1200px) {
+    width: 180px;
+    height: 63px;
+    padding-top: 23px;
+  }
+}
+.footer__social {
+  width: 95px;
+  height: 68px;
+  //outline: 1px solid red;
+  float: left;
+  &:hover {
+    -ms-background-position-y: -430px;
+    background-position-y: -430px;
+    //@media all and (max-width: 1200px) {
+    //  -ms-background-position-y: -282.861px;
+    //  background-position-y: -282.861px;
+    //}
+  }
+  @media all and (max-width: 1200px) {
+    width: 59px;
+    height: 42px;
+    &:hover {
+        -ms-background-position-y: -282.861px;
+        background-position-y: -282.861px;
+      }
+  }
+}
+.footer__social_vk {
+  background: url(../images/bullets.jpg) -995px -362px no-repeat;
+  @media all and (max-width: 1200px) {
+    background: url(../images/bullets-764.jpg) -634px -240px no-repeat;
+  }
+}
+.footer__social_inst {
+  background: url(../images/bullets.jpg) -1090px -362px no-repeat;
+  @media all and (max-width: 1200px) {
+    background: url(../images/bullets-764.jpg) -693.878px -240px no-repeat;
+  }
+}
+.footer__social_youtube {
+  background: url(../images/bullets.jpg) -1185px -362px no-repeat;
+  @media all and (max-width: 1200px) {
+    background: url(../images/bullets-764.jpg) -753.757px -240px no-repeat;
+  }
+}
+.footer__contacts {
+  padding-top: 28px;
+  padding-bottom: 49px;
+  @media all and (max-width: 1200px) {
+    padding-top: 0px;
+    padding-bottom: 29px;
+  }
+}
+.footer__contact {
+  width: 33.33%;
+  float: left;
+}
+.footer__contact__link {
+  display: block;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: 'MyriadPro-Regular';
+  font-size: 137.5%;
+  @media all and (max-width: 1200px) {
+    font-size: 85%;
+  }
+}
+.footer__contact__sbox {
+  text-align: center;
+}
+.footer__contact__confitraid {
+  text-align: right;
+}
+.footer__text {
+  @media all and (max-width: 1200px) {
+    font-size: 62.75%;
+  }
+}
+.footer__note {
+  font-family: 'MyriadPro-Regular';
+  padding-top: 40px;
+  @media all and (max-width: 1200px) {
+    font-size: 62.75%;
+  }
+}
+.footer__copyright {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-family: 'MyriadPro-Regular';
+  text-align: center;
+  font-size: 135%;
+  @media all and (max-width: 1200px) {
+    font-size: 91.75%;
+    padding-top: 24px;
+  }
+}

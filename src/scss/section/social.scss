@@ -1,0 +1,26 @@
+.social {
+  width: 86.83%;
+  height: 70px;
+  margin: 0 auto;
+  padding-top: 15px;
+  @media all and (max-width: 1200px) {
+    height: 43px;
+  }
+  @media all and (max-width: 764px) {
+    width: 85%;
+  }
+}
+.social__item {
+  float: left;
+  width: 33.33%;
+}
+.social__img {
+  display: block;
+  margin: 0 auto;
+  @media all and (max-width: 1200px) {
+    width: 30%;
+  }
+  @media all and (max-width: 764px) {
+      width: 52%;
+  }
+}

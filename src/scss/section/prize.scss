@@ -1,0 +1,100 @@
+.prizes {
+  padding-top: 29px;
+  padding-bottom: 30px;
+  @media all and (max-width: 1200px) {
+    padding-top: 20px;
+  }
+  @media all and (max-width: 764px) {
+    padding-top: 29px;
+    padding-bottom: 50px;
+  }
+}
+.head__prize {
+  background: $sw;
+  color: #FFFFFF;
+  width: 38%;
+  margin: 0 auto;
+  padding: 20px 0 0px;
+  line-height: 102px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  @media all and (max-width: 1200px) {
+    font-size: 312.5%;
+    padding: 10px 0 0px;
+    line-height: 70px;
+  }
+  @media all and (max-width: 764px) {
+    font-size: 250%;
+    padding: 7px 22px 0;
+    line-height: 50px;
+  }
+}
+.prizes__items {
+  width: 97.5%;
+  padding: 34px 0 0;
+  margin: 0 auto;
+  @media all and (max-width: 1200px) {
+    padding: 0;
+  }
+}
+.prize {
+  box-sizing: border-box;
+  float: left;
+  width: 33.33%;
+  padding: 0 15px;
+  @media all and (max-width: 764px) {
+    float: none;
+    width: 70%;
+    margin: 0 auto;
+  }
+  @media all and (max-width: 764px) {
+    width: 64%;
+  }
+}
+.prize__img {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+.prize__text {
+  padding-top: 30px;
+  text-align: center;
+  font-size: 150%;
+  @media all and (max-width: 1200px) {
+    font-size: 90%;
+    padding-top: 20px;
+  }
+  @media all and (max-width: 764px) {
+    font-size: 140%;
+  }
+  @media all and (max-width: 480px) {
+    font-size: 106%;
+  }
+}
+.prize__sum {
+  font-family: 'MyriadPro-Black';
+  font-size: 208%;
+  line-height: 30px;
+  background: $sw;
+  color: #FFFFFF;
+  margin: 4px 0 6px;
+  padding: 14px 0 2px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  @media all and (max-width: 1200px) {
+    font-size: 189.4%;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 11px 0 5px;
+    line-height: 11px;
+  }
+  @media all and (max-width: 764px) {
+    padding: 18px 0 12px;
+  }
+}
+.prize__rub {
+  font-size: 64%;
+}

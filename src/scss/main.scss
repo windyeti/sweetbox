@@ -1,0 +1,24 @@
+@import '../bower_components/normalize-css/normalize';
+//@import '../bower_components/bootstrap/dist/css/bootstrap.min';
+//@import '../bower_components/bootstrap/dist/css/bootstrap-theme.min';
+
+// ------------------------------------
+
+@import '_layout/fonts';
+@import '_layout/variable';
+@import '_layout/mixin';
+@import '_layout/adjustment';
+
+// ------------------------------------
+
+@import 'section/header';
+@import 'section/product';
+@import 'section/prize';
+@import 'section/toys';
+@import 'section/step1';
+@import 'section/step2';
+@import 'section/selfy';
+@import 'section/social';
+@import 'section/selfywinner';
+@import 'section/footer';
+@import 'section/menu';

@@ -1,0 +1,91 @@
+.product {
+  background: $sw;
+  padding-top: 36px;
+  padding-bottom: 10px;
+  @media all and (max-width: 1200px) {
+    padding-top: 25px;
+  }
+  @media all and (max-width: 764px) {
+    padding-top: 16px;
+  }
+}
+.head__product {
+  width: 95%;
+  margin: 0 auto;
+  font-size: 385.6%;
+  @media all and (max-width: 1200px) {
+    font-size: 243.75%;
+  }
+  //@media all and (max-width: 992px) {
+  //  font-size: 220%;
+  //}
+  @media all and (max-width: 480px) {
+    font-size: 150%;
+  }
+}
+.boxs {
+  width: 80%;
+  margin: 0 auto;
+}
+.box {
+  width: 45%;
+  color: #FFF;
+}
+.box_left {
+  float: left;
+}
+.box_right {
+  float: right;
+}
+.head__box {
+  font-family: 'MyriadPro-Bold';
+  font-size: 225%;
+  text-align: center;
+  @media all and (max-width: 1200px) {
+    font-size: 162.5%;
+  }
+  @media all and (max-width: 730px) {
+    font-size: 100%;
+  }
+}
+.head__box_left {
+  margin-bottom: 31px;
+  @media all and (max-width: 1200px) {
+    margin-top: 43px;
+    margin-bottom: 24px;
+    }
+  @media all and (max-width: 730px) and (min-width: 722px) {
+    margin-top: 31px;
+    margin-bottom: 9px;
+  }
+  @media all and (max-width: 722px) {
+    margin-top: 39px;
+    margin-bottom: 19px;
+  }
+  @media all and (max-width: 764px) {
+    margin-top: 28px;
+  }
+}
+.head__box_right {
+  margin: 26px 0 11px;
+  @media all and (max-width: 1200px) {
+    margin-top: 31px;
+    margin-bottom: 9px;
+  }
+  @media all and (max-width: 764px) {
+    margin-top: 20px;
+  }
+}
+.text__box {
+  font-family: 'MyriadPro-Regular';
+  text-align: justify;
+  font-size: 87.5%;
+  line-height: 123%;
+  @media all and (max-width: 764px) {
+    font-size: 75%;
+    line-height: 110%;
+  }
+}
+.text__box__p {
+  margin: 0;
+}
