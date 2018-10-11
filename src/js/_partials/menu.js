@@ -5,22 +5,20 @@ $(function() {
       $(this).removeClass('burger_close');
       $('.menuMobile').fadeOut(1000);
     } else {
-      //+++   получаем хеш активного пункта в основ меню
-
-      //+++
 
       $(this).addClass('burger_close');
       $('.menuMobile').fadeIn(1000);
 
       //+++
+      // получаем хеш активного пункта в основ меню
+      var hash = $('.menu .active').attr('href');
+
       // при нажатии на бургер мы сбрасываем на моб пункте activeMobile и устанавливаем activeMobile на пункте,
       // который определяем из основного меню, так как именно он отслеживает скроллинг и внутри себя присваивает active
       // нужному пункту. нужный пункт основ меню находим и передаем его хеш в селектор
-      var hash = $('.menu .active').attr('href');
       $('.activeMobile').removeClass('activeMobile');
       $('.menuMobile a[href="' + hash + '"]').addClass('activeMobile');
       //+++
-
 
     }
   })
