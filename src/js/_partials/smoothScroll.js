@@ -24,7 +24,7 @@ $(document).ready(function () {
   });
 });
 
-$(function() {
+$(window).load(function() {
   var sections = {};
   var i = 0;
 
@@ -32,7 +32,7 @@ $(function() {
     $('.section').each(function(ind, item) {
       var hash = $(item).attr('id');
       sections[hash] = item.offsetTop - 80;
-      })
+    })
   }
   getSections();
   $(window).on('resize', getSections);
@@ -45,4 +45,4 @@ $(function() {
       }
     })
   })
-})
+});
