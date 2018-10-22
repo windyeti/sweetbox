@@ -98,6 +98,9 @@
   color: #FFFFFF;
   font-family: 'MyriadPro-Regular';
   font-size: 137.5%;
+  &:hover {
+    color: #b6bad7;
+  }
   @media all and (max-width: 1200px) {
     font-size: 85%;
   }
@@ -111,6 +114,13 @@
 .footer__text {
   @media all and (max-width: 1200px) {
     font-size: 62.75%;
+  }
+}
+.footer__text__link {
+  text-decoration: none;
+  color: #FFFFFF;
+  &:hover {
+    color: #b6bad7;
   }
 }
 .footer__note {
