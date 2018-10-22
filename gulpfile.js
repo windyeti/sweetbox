@@ -24,11 +24,11 @@ var path = {
 	},
 	build: {
 		html: './build/',
-		css: './build/css/',
-		js: './build/js/',
-		img: './build/images/',
-		video: './build/video/',
-		font: './build/fonts/'
+		css: './build/special/sboxclub_20181022/css/',
+		js: './build/special/sboxclub_20181022/js/',
+		img: './build/special/sboxclub_20181022/images/',
+		video: './build/special/sboxclub_20181022/video/',
+		font: './build/special/sboxclub_20181022/fonts/'
 	},
 	watch: {
 		html: './src/pugs/**/*.*',

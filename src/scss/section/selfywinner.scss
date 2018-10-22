@@ -7,11 +7,15 @@
   @media all and (max-width: 1200px) {
     height:300px;
   }
+  @media all and (max-width: 764px) {
+    height:500px;
+  }
 }
 .imgback-1200_selfywinner, .imgback-764_selfywinner {
   width: 100%;
 }
 .selfywinner__info {
+  width: 100%;
   position: absolute;
   top: 0;
   left: 0;
@@ -19,8 +23,10 @@
 .head__selfywinner {
   font-size: 394%;
   padding-top: 132px;
+  margin: 0 auto;
   color: #FFFFFF;
   text-transform: uppercase;
+  text-align: center;
   @media all and (max-width: 1200px) {
     font-size: 254%;
     padding-top: 120px;
@@ -45,7 +51,7 @@
   color: #FFFFFF;
   font-family: 'MyriadPro-Regular';
   font-size: 176.75%;
-  //background-color: #007de7;
+  background-color: #007de7;
   @media all and (max-width: 1200px) {
     padding: 14px 67px 40px;
     font-size: 112%;
