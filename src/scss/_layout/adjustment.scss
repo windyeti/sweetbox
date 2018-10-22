@@ -1,7 +1,9 @@
-.body {
-  font-family: 'MyriadPro-Regular';
-  //font-family: 'mr', Arial, sans-serif;
-  font-size: 100%;
+
+body {
+  //font-family: 'MyriadPro-Regular';
+  ////font-family: 'mr', Arial, sans-serif;
+  //font-size: 100%;
+  background: #eaebef;
 }
 .clearfix:before,
 .clearfix:after {
@@ -16,6 +18,7 @@
   max-width: 1200px;
   min-width: 380px;
   margin: 0 auto;
+  background: #FFFFFF;
 }
 
 .imgback {

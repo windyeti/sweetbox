@@ -2,6 +2,14 @@
   position: fixed;
   width: 100%;
   z-index: 9999;
+  background: $lenta;
+  height: 80px;
+  @media all and (max-width: 1166px) {
+    height: 70px;
+  }
+  @media all and (max-width: 992px) {
+    height: 60px;
+  }
 }
 .container__menu {
   position: relative;

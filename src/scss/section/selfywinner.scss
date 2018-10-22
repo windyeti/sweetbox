@@ -1,13 +1,20 @@
 .container_selfywinner {
   position: relative;
-  //background-color: #007de7;
 }
-
+.selfywinner {
+  float: left;
+  overflow: hidden;
+  @media all and (max-width: 1200px) {
+    height:300px;
+  }
+}
 .imgback-1200_selfywinner, .imgback-764_selfywinner {
+  width: 100%;
+}
+.selfywinner__info {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: -100;
 }
 .head__selfywinner {
   font-size: 394%;
@@ -16,11 +23,17 @@
   text-transform: uppercase;
   @media all and (max-width: 1200px) {
     font-size: 254%;
-    padding-top: 81px;
+    padding-top: 120px;
+  }
+  @media all and (max-width: 998px) {
+    font-size: 190%;
+    padding-top: 90px;
+    //padding-top: 50px;
   }
   @media all and (max-width: 764px) {
     font-size: 190%;
-    padding-top: 50px;
+    padding-top: 100px;
+    //padding-top: 50px;
   }
 }
 .selfywinner__text {
@@ -32,7 +45,7 @@
   color: #FFFFFF;
   font-family: 'MyriadPro-Regular';
   font-size: 176.75%;
-  background-color: #007de7;
+  //background-color: #007de7;
   @media all and (max-width: 1200px) {
     padding: 14px 67px 40px;
     font-size: 112%;
