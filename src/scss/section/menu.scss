@@ -150,6 +150,9 @@
   }
   &:hover {
     background: #ffd200;
+    &.disable {
+      background: none;
+    }
   }
 }
 .mobile_rectangle {
