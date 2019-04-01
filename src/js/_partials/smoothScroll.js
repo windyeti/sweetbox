@@ -2,10 +2,10 @@
 $(document).ready(function () {
   $(".menu__link__smoothScroll").click(function(e){
 
-    if($(this).hasClass('disable')) {
-      e.preventDefault();
-      return;
-    }
+    // if($(this).hasClass('disable')) {
+    //   e.preventDefault();
+    //   return;
+    // }
 
     e.preventDefault();
     $(document).off("scroll");
