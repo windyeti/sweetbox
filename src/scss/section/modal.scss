@@ -1,0 +1,46 @@
+.modal__trigger__open {
+  display: none;
+}
+.jquery-modal.blocker.current {
+  z-index: 10000;
+}
+.modal {
+  font-family: MyriadPro-Bold;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #252e82;
+}
+.modal__inner {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  position: relative;
+  padding: 20% 10% 10%;
+  background-color: #16EBFF;
+  color: #fff;
+  text-align: center;
+  & .link_sweetboxLogo {
+    width: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+.modal__info {
+  padding-bottom: 20px;
+}
+.modal__text {
+  text-align: center;
+}
+.modal__close {
+  text-decoration: none;
+  color: #FFF;
+  border: 1px solid #FFF;
+  padding: 5px 10px;
+  font-size: 75%;
+  transition: all .3s;
+  &:hover {
+    background-color: #21c7ff;
+  }
+}
