@@ -7,5 +7,6 @@
 
 //= _partials/smoothScroll.js
 //= _partials/modalTrigger.js
+//= _partials/modal_linkToWinners.js
 
 // //= _partials/checkConnect.js

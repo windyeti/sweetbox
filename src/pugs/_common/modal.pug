@@ -1,11 +1,15 @@
 #ex1.modal
+    img.imgback.imgback-1200(src="/special/sboxclub_20181022/images/modal-1200.jpg")
+    img.imgback.imgback-764(src="/special/sboxclub_20181022/images/modal-764.jpg")
     .modal__inner
-        a.link_sweetboxLogo(href='http://www.sbox.club' target='_blank')
-            img.sweetboxLogo__img(src='/special/sboxclub_20181022/images/sweetbox_logo.svg' alt='Логотип Sweet Box' title='Логотип Sweet Box&reg;')
+        //a.link_sweetboxLogo(href='http://www.sbox.club' target='_blank')
+        //    img.sweetboxLogo__img(src='/special/sboxclub_20181022/images/sweetbox_logo.svg' alt='Логотип Sweet Box' title='Логотип Sweet Box&reg;')
         .modal__info
-            .modal__text Акция закончилась.
-            .modal__text Информация о победителях в разделе «Победители»
-        a.modal__close(href="#" rel="modal:close") закрыть
+            .modal__text.modal__text_head Акция завершилась!
+            .modal__text.modal__text_congrat
+                .modal__text_str.modal__text_str1 Поздравляем
+                .modal__text_str.modal__text_str2
+                    a.modal__linktowinners(href="#" rel="modal:close") победителей
 
 p.modal__trigger__open
     a(href="#ex1" rel="modal:open") Open Modal

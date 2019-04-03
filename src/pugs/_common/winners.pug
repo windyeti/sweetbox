@@ -1,27 +1,35 @@
-.wrap.section#winners
-    .container.container__winners.clearfix
+.wrap.wrap__winners.section#winners
+    .container.container__winners
+        //img.imgback.imgback-1200(src="/special/sboxclub_20181022/images/winners.jpg")
+        //img.imgback-764(src="/special/sboxclub_20181022/images/winners-764.jpg")
         .winners
             h2.head.head__winners Победители
+            h4.head.head__winners_sub Поздравляем
             .winners__list
                 .winner.winner_first
                     .winner__inner
-                        .winner__grad I место
                         .winner__reward
-                            img.winner__image.winner__image_first(src='')
+                            img.winner__image.winner__image_first(src="/special/sboxclub_20181022/images/reward1.png")
                         .winner__name
                             .winner__name__inner
                                 .winner__name__text Василий Пупкин
                 .winner.winner_second.winner__inner
-                    .winner__grad II место
                     .winner__reward
-                        img.winner__image.winner__image_first(src='')
+                        img.winner__image.winner__image_first(src="/special/sboxclub_20181022/images/reward2.png")
                     .winner__name
                         .winner__name__inner
                             .winner__name__text Мария Иванова
                 .winner.winner_third.winner__inner
-                    .winner__grad III место
                     .winner__reward
-                        img.winner__image.winner__image_first(src='')
+                        img.winner__image.winner__image_first(src="/special/sboxclub_20181022/images/reward3.png")
                     .winner__name
                         .winner__name__inner
                             .winner__name__text Сергей Скворцов
+                .winner.winner_selfy
+                    h4.head.head__winners_selfy Победитель в СЕЛФИ-КОНКУРСЕ
+                    .winner__inner
+                        .winner__reward
+                            img.winner__image.winner__image_selfy(src="/special/sboxclub_20181022/images/reward-selfy.png")
+                        .winner__name
+                            .winner__name__inner
+                                .winner__name__text Василий Пупкин

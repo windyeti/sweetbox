@@ -1,3 +1,43 @@
+.wrap__winners {
+  background: #FFCB01 url(../images/winners.jpg) no-repeat 50% 0;
+  -webkit-background-size: contain;
+  background-size: contain;
+  padding-top: 100px;
+  padding-bottom: 80px;
+  @media all and (max-width: 764px) {
+    background-image: url(../images/winners-764.jpg);
+  }
+}
+.container__winners {
+  //position: relative;
+}
+.winners {
+  //position: absolute;
+  //top: 0;
+  //left: 0;
+  //width: 100%;
+}
 .head__winners {
   font-size: 320%;
+}
+.head__winners_sub {
+  padding-top: 40px;
+  font-size: 240%;
+}
+.head__winners_selfy {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-size: 150%;
+}
+.winner {
+  margin-top: 40px;
+}
+.winner__name__text {
+  text-align: center;
+  font-family: BullyGirl-Bold;
+  color: $lenta;
+  font-size: 200%;
+}
+.winner__reward {
+  text-align: center;
 }
